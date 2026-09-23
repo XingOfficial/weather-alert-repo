@@ -11,10 +11,10 @@ apt update
 pkg install weather-alert
 ```
 
-国内可改用镜像加速（gh-proxy）：
+国内访问慢可改用 jsDelivr CDN 镜像（自带加速）：
 
 ```bash
-echo "deb [trusted=yes] https://gh-proxy.com/https://xingofficial.github.io/weather-alert-repo ./" >> $PREFIX/etc/apt/sources.list
+echo "deb [trusted=yes] https://cdn.jsdelivr.net/gh/XingOfficial/weather-alert-repo@main ./" >> $PREFIX/etc/apt/sources.list
 ```
 
 安装后运行 `weather-alert --help`。
