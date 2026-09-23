@@ -1,0 +1,51 @@
+Package: weather-alert
+Version: 1.0.0
+Architecture: aarch64
+Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
+Filename: ./weather-alert-termux_1.0.0_aarch64.deb
+Size: 5584160
+MD5sum: ccde70a3857666870176f09548f82914
+SHA1: 0c45ddab56dc8e122c389691ba8dc56ccf377aff
+SHA256: 29e5e163b7a79fbc6062e4826afcc83127ceb7f906b51e144ff9ca955fba1474
+Section: utils
+Priority: optional
+Description: 天气预警查询命令行工具（中央气象台数据，Termux/Android 终端）
+ Command-line tool to query China meteorological alerts
+ from the National Meteorological Centre (nmc.cn).
+ Built for Android terminal (Termux) with linux-bionic runtime.
+
+Package: weather-alert-cli
+Version: 1.0.0
+Architecture: amd64
+Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
+Depends: libc6
+Filename: ./weather-alert-cli_1.0.0_amd64.deb
+Size: 5892950
+MD5sum: e3ca6a9329056bdb1799a7c40cf422e5
+SHA1: 3f7471f5b37e4edaa02ac8bdb20bac2a4473f503
+SHA256: aa516879b94a70082a037742849848d4b8168c6b93754b8d3ca7f5dfc673a51b
+Section: utils
+Priority: optional
+Description: 天气预警查询命令行工具（中央气象台数据）
+ Command-line tool to query China meteorological alerts
+ from the National Meteorological Centre (nmc.cn).
+ Supports filtering by province, alert type and level,
+ keyword search and detail viewing.
+
+Package: weather-alert-gui
+Version: 1.0.0
+Architecture: amd64
+Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
+Depends: libc6, libx11-6, libfontconfig1, libxkbcommon0
+Filename: ./weather-alert-gui_1.0.0_amd64.deb
+Size: 34521812
+MD5sum: 125ba03d3fb5f5a1eab60fb715496903
+SHA1: f14c50b38ff1a4b5a7dd37b872a2430e7a33772b
+SHA256: 7f9fc8c4f782ad8c01b8ccb90ddbf246f9a27beb413779ec2c863afccdbf4621
+Section: utils
+Priority: optional
+Description: 天气预警查询图形界面（中央气象台数据）
+ Cross-platform GUI app (Avalonia) to query China
+ meteorological alerts from nmc.cn, with statistics
+ overview, filters, keyword search and favorites.
+
