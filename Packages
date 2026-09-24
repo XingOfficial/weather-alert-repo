@@ -3,10 +3,10 @@ Version: 1.0.0
 Architecture: aarch64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Filename: ./weather-alert-termux_1.0.0_aarch64.deb
-Size: 5584160
-MD5sum: ccde70a3857666870176f09548f82914
-SHA1: 0c45ddab56dc8e122c389691ba8dc56ccf377aff
-SHA256: 29e5e163b7a79fbc6062e4826afcc83127ceb7f906b51e144ff9ca955fba1474
+Size: 5584138
+MD5sum: b2e9ed291bb4c520019486b56651d3d7
+SHA1: 5e10920ca7e801451796c6d7d80079d1915be303
+SHA256: 35a383edb4cdd9310fe448486203670fdcdab904b02b063c33f823969bf00a39
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（中央气象台数据，Termux/Android 终端）
@@ -20,10 +20,10 @@ Architecture: amd64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Depends: libc6
 Filename: ./weather-alert-cli_1.0.0_amd64.deb
-Size: 5892950
-MD5sum: e3ca6a9329056bdb1799a7c40cf422e5
-SHA1: 3f7471f5b37e4edaa02ac8bdb20bac2a4473f503
-SHA256: aa516879b94a70082a037742849848d4b8168c6b93754b8d3ca7f5dfc673a51b
+Size: 5893148
+MD5sum: 7d022b638412c0f2994b4d670b391f77
+SHA1: ffd9982b18e8e586f54ade28254769607d0d32a2
+SHA256: 10137e298e784c65d00cea72102cc7512d436b7aeb7df1dced441c842c6b1405
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（中央气象台数据）
@@ -38,10 +38,10 @@ Architecture: amd64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Depends: libc6, libx11-6, libfontconfig1, libxkbcommon0
 Filename: ./weather-alert-gui_1.0.0_amd64.deb
-Size: 34521812
-MD5sum: 125ba03d3fb5f5a1eab60fb715496903
-SHA1: f14c50b38ff1a4b5a7dd37b872a2430e7a33772b
-SHA256: 7f9fc8c4f782ad8c01b8ccb90ddbf246f9a27beb413779ec2c863afccdbf4621
+Size: 34521822
+MD5sum: 3505a8c90992dcfe24441c7dba8a00a8
+SHA1: 4251b808fa5e46253da57ff4f79dfd69a3de1cbc
+SHA256: f46a7747c1118348537445f7a8a52d7be3655b66e5b30bc40e404475276eafd3
 Section: utils
 Priority: optional
 Description: 天气预警查询图形界面（中央气象台数据）
