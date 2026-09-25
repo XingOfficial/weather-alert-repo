@@ -3,10 +3,10 @@ Version: 1.0.0
 Architecture: aarch64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Filename: ./weather-alert-termux_1.0.0_aarch64.deb
-Size: 5587004
-MD5sum: 308bbc7a5e3595a0cd0054d4bdf9c28f
-SHA1: 7b4cba4f069a4cdd80ad0a1e3dff1d080ef1e6ff
-SHA256: e087d69c6c210f51fb21d1a1e5b315df6c144bdc4d90825ded4e70a30879fa3a
+Size: 5588814
+MD5sum: e8d07af39d7245736d4be5ee7229819c
+SHA1: 58ef6099e4af307c7b998319d6af2adda90e23da
+SHA256: c36f10125857992bb4e02a1f2841d527435066d012ee3bcfee0963666a4cb955
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（中央气象台数据，Termux/Android 终端）
@@ -20,10 +20,10 @@ Architecture: amd64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Depends: libc6
 Filename: ./weather-alert-cli_1.0.0_amd64.deb
-Size: 5892376
-MD5sum: e15a98a662541206afbe1304114ca04f
-SHA1: 6f5f72e5abbe37e11c1b8c056c62e736925e4e68
-SHA256: 3a1a280f73ff0063d4953397faea4821b7e55362c5bb400ef666a435f2ea1422
+Size: 5892312
+MD5sum: 51a686f083950de535015d92d4e2980b
+SHA1: 97dfc589a8a55eebf36fe60b8064b99536bee078
+SHA256: 215515d6f0208a4c96584735f8251c57c980b1107c83866006bf3e6057c8e22c
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（中央气象台数据）
@@ -82,10 +82,10 @@ Version: 1.1.0
 Architecture: aarch64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Filename: ./weather-alert-go_1.1.0_aarch64.deb
-Size: 1901594
-MD5sum: 5caca8d135a9221a6001d759a8ccd37e
-SHA1: 5ffbae8e86e9bf426910f700e434fbb36491b52a
-SHA256: 4b6c822716f4e89ba9954154657c13d14ddb8f69e95de532f612837b4245a8a5
+Size: 1901614
+MD5sum: a4d4356007ef54adf69d1b99472a712d
+SHA1: 097a5f85f72120e7fa8b58d07285b7dd6c133797
+SHA256: f0e6853e615a7be17896ae8e442e97337b46ade29f07c5d5bc25b40eca0a4a8a
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（Go 零依赖静态版，Termux/Android 终端）
@@ -98,10 +98,10 @@ Architecture: amd64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Depends: libc6, libx11-6, libfontconfig1, libxkbcommon0
 Filename: ./weather-alert-gui_1.0.0_amd64.deb
-Size: 34528064
-MD5sum: f3c2bc575fc1519640df372d947dbb23
-SHA1: f1c58a6d1305bde40f2c470c5fd328e34e7c1a1e
-SHA256: fbb0a9298bbb106b1626adbbbc03f1f31901c8b0b2d3f7f82c46d5937537658a
+Size: 34533332
+MD5sum: 26e96477bea23e7ad3ea9a9e66c91782
+SHA1: 2f6d73c9ffa1141c8098a60a030a1bd0b1933d01
+SHA256: e94c5170ddc4d122a6a0bb92434135f1958b364d6123114be6a7433d0774550e
 Section: utils
 Priority: optional
 Description: 天气预警查询图形界面（中央气象台数据）
