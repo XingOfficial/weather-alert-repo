@@ -3,10 +3,10 @@ Version: 1.0.0
 Architecture: aarch64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Filename: ./weather-alert-termux_1.0.0_aarch64.deb
-Size: 5586730
-MD5sum: c966fad9a3f3638a71803799f87c5d6d
-SHA1: 8e85a8873ae63138a02bf5cf035fc4b917e4802d
-SHA256: 19782641aec75bac9adc050ab173a4d6387bee0c10ff40d2ba81f65fb4eaa360
+Size: 5587016
+MD5sum: 6968fcce1a9f4eb0f6157ce5540523ab
+SHA1: 0872973f4ff4265e06e0e109de94db50b12d5f30
+SHA256: 0874e9f5362f2464c45754f438a0b1de5b80bc2266bbcf04fcbed35ac7942bef
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（中央气象台数据，Termux/Android 终端）
@@ -20,10 +20,10 @@ Architecture: amd64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Depends: libc6
 Filename: ./weather-alert-cli_1.0.0_amd64.deb
-Size: 5892920
-MD5sum: c625567107f9c0cd6b943bb6487545b7
-SHA1: 55b3b5e1b5f609731c7e02b57613c1a32fe9b225
-SHA256: 89fd00cc9f00ac33677d2fc5198d0344d9a33f948434492b589080e29ec8ee8d
+Size: 5892026
+MD5sum: d56a76e47cac6bff30f06e1f4e4625d4
+SHA1: 876c35e5936eb9e2a0e9a0eecff7ac108bdc5deb
+SHA256: cb07da0448f35ea10d3153b219240b264742693b10b7347011d5671006039bbd
 Section: utils
 Priority: optional
 Description: 天气预警查询命令行工具（中央气象台数据）
@@ -62,16 +62,31 @@ Description: 天气预警查询命令行工具（Go 零依赖静态版，Termux/
  Static Go binary with zero runtime dependencies.
  Queries China meteorological alerts from nmc.cn.
 
+Package: weather-alert-go
+Version: 1.0.2
+Architecture: aarch64
+Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
+Filename: ./weather-alert-go_1.0.2_aarch64.deb
+Size: 1888184
+MD5sum: af6bfc2bca40cfaedaf80eb936dec4d7
+SHA1: 15c3463ca210d2fec2716a2a9a44f35f47eac230
+SHA256: ec4dd02e3ca6955cf90a86fa8bbcd5a2d2e0ad4f5b67ddd11a3e8af610fec846
+Section: utils
+Priority: optional
+Description: 天气预警查询命令行工具（Go 零依赖静态版，Termux/Android 终端）
+ Static Go binary with zero runtime dependencies.
+ Queries China meteorological alerts from nmc.cn.
+
 Package: weather-alert-gui
 Version: 1.0.0
 Architecture: amd64
 Maintainer: XingOfficial <XingOfficial@users.noreply.github.com>
 Depends: libc6, libx11-6, libfontconfig1, libxkbcommon0
 Filename: ./weather-alert-gui_1.0.0_amd64.deb
-Size: 34527990
-MD5sum: 57a197f6677037db2857cd7e11e5e1e1
-SHA1: 558008f93e831926d5a92b931ead2bc1c426cc04
-SHA256: b23048ee604abf5472596b413d66207f4da08e40a062b315a312397418d6261f
+Size: 34529220
+MD5sum: 11e2e9340cbc6cf73f0af69f2c73f1c7
+SHA1: 6e6043089a61ce4db136da0101e25556211e96b5
+SHA256: 43e3356aa20095931665e0a1c1c5af0df0b608c1430697f797e942e67962e9e2
 Section: utils
 Priority: optional
 Description: 天气预警查询图形界面（中央气象台数据）
